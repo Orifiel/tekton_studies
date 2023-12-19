@@ -1,6 +1,6 @@
 <img src="https://cd.foundation/wp-content/uploads/sites/78/2020/11/tekton-stacked-color-400.png">
 
-<h1>tekton_studys</h1>
+<h1>tekton_studies</h1>
 
 Arquivos gerados durante os estudos sobre tekton pipelines
 
