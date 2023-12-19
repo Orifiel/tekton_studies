@@ -1,0 +1,20 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: hello
+spec:
+  steps:
+    - name: echo
+      image: alpine
+      script: |
+        #!/bin/sh
+        echo "Hello World" 
+        echo "=============="
+        echo "Creating file in workspace"
+        touch /workspace/myfile
+        echo "Creating a folder in workspace and /"
+        mkdir /workspace/folder
+        mkdir /folder
+        echo "-------------"
+        ls /
+        ls /workspace 
